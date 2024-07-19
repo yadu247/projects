@@ -1,0 +1,65 @@
+@media screen and (max-width: 1400px) {
+  .project-img {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Skills-details-container {
+    margin-top: 2rem;
+  }
+
+  .section-container {
+    display: block;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  article {
+    font-size: 1rem;
+  }
+
+  .about-containers,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
