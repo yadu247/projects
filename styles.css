@@ -20,6 +20,47 @@ p {
   color: rgb(135, 135, 135);
 }
 
+/* DESKTOP NAV */
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+.web-icon {
+  display: none;
+}
+
 /* TRANSITION */
 
 a,
@@ -46,6 +87,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 1.25rem;
 }
 
 /* BUTTONS */

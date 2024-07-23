@@ -31,6 +31,15 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .web-text {
+    display: none;
+  }
+  .web-icon {
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 600px) {
   article {
     font-size: 1rem;
