@@ -2,11 +2,9 @@
   .Skills-details-container {
     margin-top: 2rem;
   }
-
   .section-container {
     display: block;
   }
-
   section,
   .section-container {
     height: fit-content;
@@ -37,12 +35,10 @@
   article {
     font-size: 1rem;
   }
-
   .about-containers,
   .btn-container {
     flex-wrap: wrap;
   }
-
   .section__pic-container {
     width: auto;
     height: 46vw;
